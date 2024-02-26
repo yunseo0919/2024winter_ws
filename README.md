@@ -6,6 +6,7 @@
 ### 1. Haptic device connection
 Use omega.6 ros driver.
 You can get the pose of the haptic device.
+
     cd catkin_ws/src/sdk-3.14.0/bin
     sudo ./HapticInit
 
