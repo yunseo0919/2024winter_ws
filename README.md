@@ -2,6 +2,14 @@
 ## Imitation learning simulation environment setup
 ![Screenshot from 2024-02-26 14-41-51](https://github.com/yunseo0919/2024winter_ws/assets/161008012/77f31cd6-d6d1-4df2-8cda-71aaa69505f0)
 
+### Edited from packages below
+
+    https://github.com/saga0619/dyros_tocabi_v2
+    https://github.com/saga0619/mujoco_ros_sim
+    https://github.com/saga0619/tocabi_gui
+    https://github.com/saga0619/tocabi_cc
+    https://github.com/minong22/haptic_driver
+
 ## Installation
 ### 1. Haptic device
 Use omega.6 ros driver
@@ -29,6 +37,9 @@ reference: (https://github.com/minong22/haptic_driver)
 
 reference: (https://github.com/saga0619/dyros_tocabi_v2)
 
+3. Change
+
+    
 
 
 roslaunch tocabi_controller simulation.launch hand:=false
