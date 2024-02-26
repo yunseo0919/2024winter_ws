@@ -4,13 +4,16 @@
 
 ## How to use
 ### 1. Haptic device connection
-Use omega.6 ros driver.
+Use omega.6 ros driver
 
 You can get the pose of the haptic device.
 
+    git clone https://github.com/minong22/haptic_driver.git
     cd catkin_ws/src/sdk-3.14.0/bin
     sudo ./HapticInit
-
+    cd catkin_ws/
+    catkin_make
+    rosrun haptic_ros_driver haptic_ros_driver
 
 reference: (https://github.com/minong22/haptic_driver)
 
