@@ -12,6 +12,7 @@ You can get the pose of the haptic device.
     git clone https://github.com/minong22/haptic_driver.git
     cd catkin_ws/src/sdk-3.14.0/bin
     sudo ./HapticInit
+   
     //cd catkin_ws/
     //catkin_make
     //rosrun haptic_ros_driver haptic_ros_driver
@@ -23,6 +24,7 @@ reference: (https://github.com/minong22/haptic_driver)
 
     cd catkin_ws/src
     git clone --recurse-submodules https://github.com/saga0619/dyros_tocabi_v2
+
 
 2. Install CustomController, GUI, Simulator and All-in-One Requirements installation
 
