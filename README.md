@@ -4,4 +4,5 @@
 
 ## How to use
 ### 1. Haptic device connection
+You can get the pose of the haptic device and set the force of the device.
 reference: (https://github.com/minong22/haptic_driver)
