@@ -4,5 +4,12 @@
 
 ## How to use
 ### 1. Haptic device connection
-You can get the pose of the haptic device and set the force of the device.
+Use omega.6 ros driver.
+You can get the pose of the haptic device.
+    cd catkin_ws/src/sdk-3.14.0/bin
+    sudo ./HapticInit
+
+
 reference: (https://github.com/minong22/haptic_driver)
+
+### 2. 
