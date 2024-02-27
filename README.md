@@ -24,6 +24,11 @@ You can get the pose of the haptic device.
     //catkin_make
     //rosrun haptic_ros_driver haptic_ros_driver
 
+'''cpp
+cd catkin_ws/src
+git clone --recurse-submodules 
+'''
+
 reference: (https://github.com/minong22/haptic_driver)
 
 ### Dyros_tocabi_v2
