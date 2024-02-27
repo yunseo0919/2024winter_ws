@@ -54,12 +54,12 @@ dyros_tocabi_v2/tocabi_controller/launch/simulation_with_camera.launch (New)
 ```
 
 ## How to Use
-1. dependency(OpenCV)
+dependency(OpenCV)
 ```cpp
 sudo apt update
 sudo apt install libopencv-dev
 ```
-2. Build & Simulation Start
+Build & Simulation Start
 ```cpp
 cd catkin_ws/
 catkin_make
@@ -69,4 +69,4 @@ Ctrl+Alt+T (New Terminal)
 ```cpp
 roslaunch tocabi_controller simulation.launch hand:=false
 ```
-3. Specify rd_.tc_.mode as number 6 and run the simulation!
+Specify rd_.tc_.mode as number 6 and run the simulation!
