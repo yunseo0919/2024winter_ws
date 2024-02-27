@@ -67,5 +67,6 @@ rosrun haptic_ros_driver haptic_ros_driver
 ```
 
 Ctrl+Alt+T (New Terminal)
-    roslaunch tocabi_controller simulation.launch hand:=false
-
+```cpp
+roslaunch tocabi_controller simulation.launch hand:=false
+```
