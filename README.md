@@ -30,9 +30,9 @@ reference: (https://github.com/minong22/haptic_driver)
 1. Clone repository
 
     cd catkin_ws/src
-    git clone --recurse-submodules https://github.com/saga0619/dyros_tocabi_v2
+    git clone --recurse-submodules 
 
-Install CustomController, GUI, Simulator and All-in-One Requirements installation
+2. Install CustomController, GUI, Simulator and All-in-One Requirements installation
 
 reference: (https://github.com/saga0619/dyros_tocabi_v2)
 
