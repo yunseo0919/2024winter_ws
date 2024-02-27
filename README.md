@@ -12,7 +12,7 @@
     https://github.com/Hokyun-Lee/2024winter_ws
 
 ## Installation
-### 1. Haptic device
+### Haptic device
 Use omega.6 ros driver
 
 You can get the pose of the haptic device.
@@ -20,10 +20,6 @@ You can get the pose of the haptic device.
     git clone https://github.com/minong22/haptic_driver.git
     cd catkin_ws/src/sdk-3.14.0/bin
     sudo ./HapticInit
-   
-    //cd catkin_ws/
-    //catkin_make
-    //rosrun haptic_ros_driver haptic_ros_driver
 
 reference: (https://github.com/minong22/haptic_driver)
 
@@ -56,8 +52,20 @@ mujoco_ros_sim/mujoco_ros/include/mujoco_rgbd_camera.hpp (New)
 dyros_tocabi_v2/tocabi_description/mujoco_model/dyros_tocabi_with_object_2024winter.xml (New)
 dyros_tocabi_v2/tocabi_controller/launch/simulation_with_camera.launch (New)
 ```
-    
 
+## How to Use
+1. dependency(OpenCV)
+```cpp
+sudo apt update
+sudo apt install libopencv-dev
+```
+2. Build & Simulation Start
+```cpp
+cd catkin_ws/
+catkin_make
+rosrun haptic_ros_driver haptic_ros_driver
+```
 
-roslaunch tocabi_controller simulation.launch hand:=false
+Ctrl+Alt+T (New Terminal)
+    roslaunch tocabi_controller simulation.launch hand:=false
 
