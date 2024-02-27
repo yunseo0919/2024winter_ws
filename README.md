@@ -65,8 +65,8 @@ cd catkin_ws/
 catkin_make
 rosrun haptic_ros_driver haptic_ros_driver
 ```
-
-   Ctrl+Alt+T (New Terminal)
+Ctrl+Alt+T (New Terminal)
 ```cpp
 roslaunch tocabi_controller simulation.launch hand:=false
 ```
+3. Specify rd_.tc_.mode as number 6 and run the simulation!
