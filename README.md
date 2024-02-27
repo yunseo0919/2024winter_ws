@@ -30,9 +30,8 @@ reference: (https://github.com/minong22/haptic_driver)
 1. Clone repository
    
 '''
-    cd catkin_ws/src
-    git clone --recurse-submodules 
-
+cd catkin_ws/src
+git clone --recurse-submodules 
 '''
 
 2. Install CustomController, GUI, Simulator and All-in-One Requirements installation
